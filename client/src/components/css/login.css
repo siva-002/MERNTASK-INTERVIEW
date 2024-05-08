@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: yellow;
+    height: 50px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar span{
+    margin: 10px;
+}
+.form-con{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    height: 80vh;
+
+    
+}
+.form-con form{
+    box-shadow: 0px 0px 5px grey; 
+}
+.form-con form,.addemployee form{
+    /* box-shadow: 0px 0px 5px grey; */
+    padding: 20px;
+    border-radius: 20px;
+}
+.form-con form,.addemployee form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.addemployee form{
+    width: 300px;
+}
+.form-con form div,.addemployee  form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.form-con form div input,.addemployee form div select{
+    
+}
+.form-con form div input,.addemployee form div select,
+.addemployee form div input
+
+{
+    height: 30px;
+    border: 1px solid lightgrey;
+    outline: none;
+   
+}
+.addemployee form div input[type="file"]{
+    border: none;
+}
+.form-con form div button[type="submit"],.addemployee form div button[type="submit"]{
+   width: 180px;
+    border: none;
+    background: rgba(90,30,60,0.3);
+    box-shadow: 0px 0px 5px lightgrey;
+    cursor: pointer;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.form-con .form-con div .error{
+    color: red;
+    font-weight: 800;
+}
+.form-con .form-con div .success{
+    color: green;
+    font-weight: 800;
+}
+.form-con form  .active{
+    color:darkgoldenrod;
+}
+.form-con form a{
+    text-decoration: none;
+    color: black;
+}
+
+.admin-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 0 50px;
+    height: 30px;
+    background-color:lightblue;
+    font-size: 1.2rem;
+}
+.admin-navbar .user-nav{
+    width:300px;
+    display: flex;
+    justify-content: space-between;
+}
+.admin-navbar div span{
+    cursor: pointer;
+}
+.logo{
+    margin: 10px;
+    font-size: 1.3rem;
+}
+.admin-dashboard{
+    display: flex;
+    flex-direction: column;
+  
+}
+.admin-content{
+    
+}
+.dashboard {
+    height: 80vh;
+}
+.dashboard .title,.employeelist .title,.addemployee .title{
+    background: yellow;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.dashboard .con{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80%;
+font-size: 1.4rem;
+}
+.employeelist .admin-actions{
+    display: flex;
+    justify-content: flex-end;
+    gap: 200px;
+    font-size: 1.2rem;
+    padding: 10px 150px 0 0;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.employee-details{
+   
+}
+
+.employee-details .search-bar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+.employee-details .search-bar input{
+    width: 500px;
+}
+.employee{
+    background-color: lightblue;
+}
+.employee-details  table{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.employee-details  table ,
+
+.employee-details  table tr td
+{
+    border: 2px solid grey;
+    border-collapse: collapse !important;
+    padding: 5px;
+    text-align: center;
+}
+.employee-details  table{
+    border-top: none;
+}
+
+.employee-details  table tr td{
+    padding: 10px;
+    background: #fff !important;
+}
+
+.employee-details  table tr td img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.addemployee form div img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.action-btn{
+    cursor: pointer;
+}
+#fileupload{
+    display: none;
+}
+.choosefilebtn{
+    padding: 10px;
+    background: lightblue;
+    font-weight: 800;
+    cursor: pointer;
+}
